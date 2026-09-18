@@ -1,0 +1,13 @@
+REFERENCES
+
+GitHub (2026) About repositories. Available at: https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories
+
+GitHub (2026) About the repository README file. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+
+Google (2026) Google Fonts. Available at: https://developers.google.com/fonts
+
+Mozilla Developer Network (MDN) (2026) Introduction to cross-browser testing. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Introduction
+
+Mozilla Developer Network (MDN) (2026) <nav>: The Navigation Section element. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav
+
+World Wide Web Consortium (W3C) (2024) Web Content Accessibility Guidelines (WCAG) 2.2. Available at: https://www.w3.org/TR/WCAG22/

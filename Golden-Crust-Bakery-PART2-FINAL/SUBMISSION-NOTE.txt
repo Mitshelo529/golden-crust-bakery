@@ -1,0 +1,1 @@
+Part 2 submission: push the updated website files to the GitHub repository and submit the GitHub repository link to the LMS. The Part 2 assignment instructions specify HTML files in the remote repository and the GitHub repository link; they do not specify a ZIP as the Part 2 submission requirement.

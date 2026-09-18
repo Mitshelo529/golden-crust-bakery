@@ -1,0 +1,100 @@
+/* Golden Crust Bakery - Part 2 CSS */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 1rem; line-height: 1.6; color: #222; background: #fff; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: #222; text-decoration: underline; }
+a:hover { color: #8a5a00; }
+a:focus { outline: 3px solid #d9a441; outline-offset: 3px; }
+a:active { color: #5c3b00; }
+h1,h2,h3 { margin-top: 0; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+h2 { font-size: clamp(1.6rem, 3vw, 2.3rem); }
+h3 { font-size: 1.3rem; }
+.eyebrow { font-size: .9rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #8a5a00; }
+.site-header { display:flex; justify-content:space-between; align-items:center; gap:2rem; padding:1rem 5%; border-bottom:1px solid #ddd; background:#fff; }
+.brand { display:flex; align-items:center; gap:.75rem; font-weight:700; font-size:1.1rem; text-decoration:none; }
+.brand img { width:55px; height:55px; }
+.site-header nav { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:1rem; }
+.site-header nav a { padding:.5rem .7rem; text-decoration:none; border-radius:4px; }
+.site-header nav a:hover { background:#f4ead7; color:#6d4700; }
+.site-header nav a:focus { background:#f4ead7; }
+.site-header nav a:active { background:#d9a441; color:#fff; }
+.site-header nav a.active { font-weight:700; border-bottom:2px solid #8a5a00; }
+.section { width:min(1100px,90%); margin:0 auto; padding:4rem 0; }
+.section-heading { max-width:750px; margin:0 auto 2rem; text-align:center; }
+.hero { width:min(1200px,90%); margin:0 auto; padding:5rem 0; display:grid; grid-template-columns:1.1fr .9fr; align-items:center; gap:3rem; }
+.hero-content { max-width:650px; }
+.hero-image { width:100%; max-width:500px; margin:0 auto; border-radius:8px; }
+.page-hero { width:min(1000px,90%); margin:0 auto; padding:4rem 0 2rem; }
+.button-row { display:flex; flex-wrap:wrap; gap:1rem; margin-top:1.5rem; }
+.button { display:inline-block; padding:.75rem 1.2rem; border:1px solid #222; border-radius:5px; background:#222; color:#fff; text-decoration:none; font-weight:700; cursor:pointer; }
+.button:hover { background:#8a5a00; border-color:#8a5a00; color:#fff; }
+.button:focus { outline:3px solid #d9a441; outline-offset:3px; }
+.button:active { background:#5c3b00; }
+.button-outline { background:#fff; color:#222; }
+.button-outline:hover { background:#f4ead7; color:#222; }
+.card-grid,.product-grid,.three-col { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+.card,.product-card,.info-box,.form-card { padding:1.5rem; border:1px solid #ddd; border-radius:8px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,.08); }
+.card:hover,.product-card:hover { transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,.12); }
+.card img,.product-card img { width:100%; max-width:350px; margin:0 auto 1rem; border-radius:5px; }
+.split { display:grid; grid-template-columns:1fr 1fr; align-items:start; gap:3rem; }
+.info-box { background:#faf7f1; }
+.muted { color:#666; }
+.rounded-image { width:100%; border-radius:8px; }
+.tag-list { display:flex; flex-wrap:wrap; gap:.6rem; padding:0; list-style:none; }
+.tag-list li { padding:.4rem .8rem; border:1px solid #ccc; border-radius:20px; background:#faf7f1; }
+.product-grid { grid-template-columns:repeat(2,1fr); }
+.product-card { display:grid; grid-template-columns:150px 1fr; gap:1.2rem; align-items:center; }
+.product-card img { width:150px; height:120px; object-fit:cover; }
+.faq { width:min(900px,90%); margin:0 auto; }
+.faq details { margin-bottom:1rem; padding:1rem; border:1px solid #ddd; border-radius:5px; }
+.faq summary { cursor:pointer; font-weight:700; }
+.faq summary:hover { color:#8a5a00; }
+.faq summary:focus { outline:3px solid #d9a441; }
+.form-section { width:min(900px,90%); margin:0 auto; padding:2rem 0 4rem; }
+.form-card { width:100%; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.2rem; }
+.form-grid > div { display:flex; flex-direction:column; }
+label { margin-bottom:.4rem; font-weight:700; }
+input,select,textarea { width:100%; padding:.75rem; border:1px solid #aaa; border-radius:4px; font:inherit; background:#fff; }
+textarea { min-height:140px; resize:vertical; }
+input:focus,select:focus,textarea:focus { outline:3px solid #d9a441; border-color:#8a5a00; }
+input:hover,select:hover,textarea:hover { border-color:#8a5a00; }
+input:active,select:active,textarea:active { border-color:#5c3b00; }
+.form-message { margin-top:1rem; padding:1rem; border-left:4px solid #8a5a00; background:#faf7f1; font-weight:700; }
+.contact-grid { width:min(1100px,90%); margin:0 auto; padding:2rem 0; display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
+.map-wrap { width:100%; overflow:hidden; border:1px solid #ddd; border-radius:8px; }
+.map-wrap iframe { display:block; width:100%; min-height:350px; border:0; }
+.site-footer { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; padding:2rem 5%; border-top:1px solid #ddd; background:#fafafa; }
+.site-footer a:hover { color:#8a5a00; }
+@media (max-width:900px) {
+ .site-header { flex-direction:column; align-items:stretch; text-align:center; }
+ .brand { justify-content:center; }
+ .site-header nav { justify-content:center; }
+ .hero { grid-template-columns:1fr; text-align:center; padding:3.5rem 0; }
+ .hero-content { margin:0 auto; }
+ .button-row { justify-content:center; }
+ .card-grid,.three-col { grid-template-columns:repeat(2,1fr); }
+ .product-grid { grid-template-columns:1fr; }
+ .split,.contact-grid { grid-template-columns:1fr; }
+ .site-footer { grid-template-columns:1fr; text-align:center; }
+}
+@media (max-width:600px) {
+ body { font-size:.95rem; }
+ .site-header { padding:1rem 4%; }
+ .brand { flex-direction:column; }
+ .site-header nav { flex-direction:column; align-items:stretch; gap:.3rem; }
+ .site-header nav a { text-align:center; border:1px solid #ddd; }
+ .section,.hero,.page-hero,.contact-grid { width:92%; }
+ .section { padding:2.5rem 0; }
+ .hero { padding:2.5rem 0; }
+ .card-grid,.three-col { grid-template-columns:1fr; }
+ .form-grid { grid-template-columns:1fr; }
+ .button-row { flex-direction:column; align-items:stretch; }
+ .button { width:100%; text-align:center; }
+ .map-wrap iframe { min-height:280px; }
+ .site-footer { padding:1.5rem 4%; }
+ .product-card { grid-template-columns:1fr; }
+ .product-card img { width:100%; height:auto; }
+}

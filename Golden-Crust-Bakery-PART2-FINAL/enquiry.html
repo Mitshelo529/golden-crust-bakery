@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Send an enquiry to Golden Crust Bakery about products, custom cakes or events.">
+  <title>Golden Crust Bakery | Enquiry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Website Header and Navigation -->
+  <header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Golden Crust Bakery logo"><span>Golden Crust Bakery</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a class="active" href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="page-hero"><p class="eyebrow">Customer enquiry</p><h1>Tell us what you need</h1><p>Use this form for product questions, custom cake requests or event orders.</p></section>
+    <section class="section form-section">
+      <form id="enquiryForm" class="form-card" novalidate>
+        <div class="form-grid">
+          <label>Full name<input type="text" name="name" required></label>
+          <label>Email address<input type="email" name="email" required></label>
+          <label>Phone number<input type="tel" name="phone"></label>
+          <label>Enquiry type<select name="type" required><option value="">Select one</option><option>Product enquiry</option><option>Custom cake request</option><option>Event order</option></select></label>
+          <label>Preferred date<input type="date" name="date"></label>
+          <label>Estimated quantity<input type="number" name="quantity" min="1" placeholder="e.g. 20"></label>
+        </div>
+        <label>Message<textarea name="message" rows="6" required placeholder="Tell us about your order or question..."></textarea></label>
+        <button class="button" type="submit">Submit Enquiry</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><strong>Golden Crust Bakery</strong><br>Johannesburg, South Africa</div><div><a href="mailto:info@goldencrustbakery.co.za">info@goldencrustbakery.co.za</a><br><a href="tel:+27110000000">+27 11 000 0000</a></div><div>© 2026 Golden Crust Bakery</div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Golden Crust Bakery – Content Research Notes
+
+The website content was planned for a small bakery in Johannesburg, South Africa.
+Research focused on clear business information, product information, customer enquiries and contact details.
+
+Content sources considered:
+- Original business content
+- Royalty-free bakery/product images
+- Free icons
+- Google Fonts
+- Product photographs
+
+External images and media should be checked for suitable licensing before use. Source and licensing information should be retained in the project research files and references.
+
+GitHub Repository:
+https://github.com/Mitshelo529/golden-crust-bakery

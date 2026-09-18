@@ -1,0 +1,25 @@
+Golden Crust Bakery – Website Content
+
+Home
+Welcome to Golden Crust Bakery. The home page introduces the bakery and shows featured products.
+
+About Us
+The about page shares the bakery history, mission, vision, values and team information.
+
+Products
+Products include cakes, bread, cookies, muffins and pastries, with descriptions and prices.
+
+Enquiry
+Customers can make general enquiries, request custom cakes and ask about event orders.
+
+Contact
+The contact page provides the business address, telephone number, email address, business hours, map and contact form.
+
+Common Homepage Content
+- Bakery logo
+- Navigation menu
+- Hero image
+- Welcome message
+- Featured products
+- Order Now call-to-action
+- Footer with contact details and social media links

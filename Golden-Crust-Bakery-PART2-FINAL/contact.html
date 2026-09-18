@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Golden Crust Bakery in Johannesburg and find the bakery on a map.">
+  <title>Golden Crust Bakery | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Website Header and Navigation -->
+  <header class="site-header"><a class="brand" href="index.html"><img src="images/logo.svg" alt="Golden Crust Bakery logo"><span>Golden Crust Bakery</span></a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="enquiry.html">Enquiry</a><a class="active" href="contact.html">Contact</a></nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="page-hero"><p class="eyebrow">Get in touch</p><h1>Contact Golden Crust Bakery</h1><p>Find our general location, contact details and business hours below.</p></section>
+    <section class="section contact-grid">
+      <div class="info-box">
+        <h2>Contact details</h2>
+        <p><strong>Location:</strong> Johannesburg, South Africa</p>
+        <p><strong>Phone:</strong> <a href="tel:+27110000000">+27 11 000 0000</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@goldencrustbakery.co.za">info@goldencrustbakery.co.za</a></p>
+        <p><strong>Hours:</strong><br>Mon–Sat: 07:00–18:00<br>Sun: 08:00–14:00</p>
+        <a class="button" href="https://www.google.com/maps/search/?api=1&query=Johannesburg%20South%20Africa" target="_blank" rel="noopener">Open map</a>
+      </div>
+      <div class="map-wrap">
+        <!-- Map: general Johannesburg location because the proposal specifies Johannesburg but no street address. -->
+        <iframe title="Map showing Johannesburg, South Africa" src="https://www.openstreetmap.org/export/embed.html?bbox=28.0%2C-26.35%2C28.2%2C-26.05&layer=mapnik&marker=-26.2041%2C28.0473" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="section form-section">
+      <form id="contactForm" class="form-card" novalidate>
+        <h2>Contact form</h2>
+        <div class="form-grid">
+          <label>Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+        </div>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <button class="button" type="submit">Send Message</button>
+        <p id="contactMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><strong>Golden Crust Bakery</strong><br>Johannesburg, South Africa</div><div><a href="mailto:info@goldencrustbakery.co.za">info@goldencrustbakery.co.za</a><br><a href="tel:+27110000000">+27 11 000 0000</a></div><div>© 2026 Golden Crust Bakery</div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+GOLDEN CRUST BAKERY — START HERE
+
+1. Extract this ZIP file.
+2. Open the extracted Golden-Crust-Bakery folder in Visual Studio Code.
+3. In VS Code, open index.html.
+4. Right-click index.html and choose "Open with Live Server" if you have the Live Server extension.
+   If you do not have Live Server, double-click index.html in File Explorer to open it in your browser.
+5. Test the navigation:
+   Home -> About -> Products -> Enquiry -> Contact.
+6. Test the forms on Enquiry and Contact.
+7. On Contact, check that the Johannesburg map loads.
+8. Before submission, replace the demonstration phone number/email with the real details approved for the project if your lecturer expects them.
+
+IMPORTANT:
+The proposal only specifies Johannesburg, South Africa and does not provide a real street address, so the map is centred on Johannesburg rather than inventing a street address.
