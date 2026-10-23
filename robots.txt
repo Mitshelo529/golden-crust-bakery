@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://incredible-otter-42c971.netlify.app/sitemap.xml
